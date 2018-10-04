@@ -8,6 +8,9 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!gay') {
     	message.reply('is 100% gay with @Don Cheadle#7002');
+    });
+
+client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
