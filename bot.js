@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'david sucks') {
-    	message.reply('no u');
+    if (message.content === '!gay') {
+    	message.reply('is 100% gay with @Don Cheadle#7002');
   	}
 });
 
