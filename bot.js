@@ -8,9 +8,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'david sucks') {
     	message.reply('ew your a FUCKING PROBLEM YOU TIT FACE BASTARD ASS LICKING BITCH FUCK LICKING PUSSY LIKE YOUR FATHER AND A DOLL YOU FUCKING DOLL');
-  	}
-});
-
+    });
+    
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
